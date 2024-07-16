@@ -1,0 +1,10 @@
+let nameOne = "Hemant"
+
+console.log(nameOne.endsWith('n'));
+
+console.log(nameOne.indexOf('a'));
+
+console.log(nameOne.charAt(2));
+
+console.log(nameOne.startsWith("He"))
+
