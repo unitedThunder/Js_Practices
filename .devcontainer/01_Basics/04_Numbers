@@ -1,0 +1,6 @@
+let num = 1234
+// console.log(typeof num)
+// console.log(typeof num.toString())
+min = 10
+max = 20
+console.log(Math.floor(Math.random() * ((max - min)+1)*10 ))
