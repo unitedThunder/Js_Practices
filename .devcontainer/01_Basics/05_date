@@ -1,5 +1,31 @@
 let myDate = new Date()
 
-console.log(myDate.toString())
-console.log(myDate.to())
-console.log(myDate.toString())
+// console.log(myDate.toString())
+// console.log(myDate.toDateString())
+// console.log(myDate.toISOString())
+// console.log(myDate.toLocaleDateString())
+
+// let newDate = new Date(2024, 0, 23)
+// let newDate = new Date(2024, 0, 23, 5, 10)
+// let newDate = new Date("2024-01-25")
+// let newDate = new Date("01-28-2024")
+// console.log(newDate.toDateString())
+
+let myTimeStamp = Date.now()
+// console.log(myTimeStamp)
+
+let newDate = new Date()
+
+// console.log(newDate.getTime())
+// console.log(newDate.getDay())
+// console.log(newDate.getMonth())
+// console.log(newDate.getSeconds())
+
+// custom formatting of date
+console.log(newDate.toLocaleString('default', {
+    weekday: "long",
+    timeZone: "Asia/Kolkata",
+    timeZoneName: "short" // or "long"
+}));
+
+
