@@ -1,0 +1,37 @@
+
+
+const mySym = Symbol("key1")
+
+let myObj = {
+    name : "Hemant",
+    "Full Name" : "Hemant Dahakane",
+    age : 27,
+    // mySym : "myKey1",
+    [mySym] : "myKey1",
+    email : "hemant@gmail.com",
+    isLogedIn : false,
+    loggingDays : ["Mon", "Tue", "Wed", "Thus", "Fri", "Sat"]
+}
+
+// console.log(myObj.name)
+// console.log(myObj["age"])
+// console.log(myObj.Full Name) // cann't access like this
+// console.log(myObj["Full Name"])
+// console.log(typeof (myObj["mySym"]))
+
+// we can set values like this
+myObj.email = "hemant@google.com"
+
+myObj.greeting = function(){
+    console.log("Hello user...")
+}
+
+myObj.greetingTwo = function(){
+    console.log(`Hello user, ${myObj["Full Name"]}`)
+}
+console.log(myObj.greeting)
+console.log(myObj.greeting())
+console.log(myObj.greetingTwo())
+
+
+
