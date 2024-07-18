@@ -52,6 +52,8 @@ const myn2 = myArr.splice(1,3)
 let mrvel_hero = ["Iron Man", "Thor", "Captain America"]
 let dc_hero = ["Flash", "SuperMan", "BatMan"]
 let bolly_hero = ["Krish", "Makkhi"]
+const tolly_hero = ["m babu", "ravi teja", "prabhas"]
+
 
 // mrvel_hero.push(dc_hero)
 // console.log(mrvel_hero)
@@ -59,10 +61,10 @@ let bolly_hero = ["Krish", "Makkhi"]
 // let newArr = mrvel_hero.concat(dc_hero)
 // console.log(newArr)
 
-// let new_arr = mrvel_hero.concat(...dc_hero, ...bolly_hero) 
+// let new_arr = mrvel_hero.concat(...dc_hero, ...bolly_hero, ...tolly_hero) 
 // console.log(new_arr)
 
-let nestedArray = [1,2,3,[4,5],[6,7,[8,9]]]
+let nestedArray = [1,2,3,[4,5],[6,7,[8,9,[10,11]]]]
 
 // console.log(nestedArray)
 // console.log("=========================================")
@@ -70,6 +72,7 @@ let nestedArray = [1,2,3,[4,5],[6,7,[8,9]]]
 // console.log("=========================================")
 // let realArray = nestedArray.flat(Infinity)
 // console.log(realArray)
+
 // console.log("=========================================")
 
 // console.log(Array.isArray("Hemant"))
@@ -80,7 +83,7 @@ let nestedArray = [1,2,3,[4,5],[6,7,[8,9]]]
 
 const mapper = new Map([
 ["1" , "A"],
-["2" , "b"]
+["B" , "2"]
 ])
 
 // console.log(Array.from(mapper.values()))
@@ -89,5 +92,5 @@ const mapper = new Map([
 
 // Array.of() Demo
 
-let new_arr = Array.of(1,2,3,4,5)
+let new_arr = Array.of(1,2,3,4,5,"fdf","hfgjg")
 console.log(new_arr)

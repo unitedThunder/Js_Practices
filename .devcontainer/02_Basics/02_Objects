@@ -2,6 +2,7 @@
 
 const mySym = Symbol("key1")
 
+// this the way to declare the object by literal
 let myObj = {
     name : "Hemant",
     "Full Name" : "Hemant Dahakane",

@@ -5,13 +5,14 @@ let myDate = new Date()
 // console.log(myDate.toISOString())
 // console.log(myDate.toLocaleDateString())
 
-// let newDate = new Date(2024, 0, 23)
-// let newDate = new Date(2024, 0, 23, 5, 10)
+// let newDate = new Date(2024, 1, 23)
+// let newDate = new Date(2024, 0, 23, 5, 15)
 // let newDate = new Date("2024-01-25")
 // let newDate = new Date("01-28-2024")
 // console.log(newDate.toDateString())
+// console.log(newDate.toString())
 
-let myTimeStamp = Date.now()
+// let myTimeStamp = Date.now()
 // console.log(myTimeStamp)
 
 let newDate = new Date()
