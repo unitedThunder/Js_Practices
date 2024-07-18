@@ -1,0 +1,50 @@
+
+// we can  create singletone object like bellow
+
+const obj = new Object()
+
+let tinderUser = {
+    user : {
+        email : "abc@gmail.com",
+        fullName : {
+            fName : "Hemant",
+            lName : "Dhakane"
+        }
+    }
+}
+
+// console.log(tinderUser.user)
+// console.log(tinderUser.user.fullName)
+
+const obj1 = {1:"a", 2:"b", 3:"c"}
+const obj2 = {4:"a", 5:"b", 6:"c"}
+const obj3 = {7:"a", 8:"b", 9:"c"}
+
+// const newObj = {obj1, obj2, obj3}
+
+// const newObj = Object.assign({}, obj1, obj2, obj3)
+
+const newObj = {...obj1, ...obj2}
+
+// console.log(newObj)
+
+const user = [
+    {"id": 123,
+        "name":"Hemant"
+    },
+    {"id": 1234,
+        "name":"Sahil"
+    },
+    {"id": 1235,
+        "name":"Pratap"
+    },
+    {},
+    {},
+    {},
+    {}
+]
+//    console.log(user[2].id)
+
+   console.log(Object.keys(tinderUser.user))
+   console.log(Object.values(tinderUser.user))
+   console.log(Object.entries(tinderUser.user))
