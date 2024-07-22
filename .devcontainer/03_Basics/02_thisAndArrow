@@ -1,0 +1,66 @@
+// This keyword uses
+
+const obj = {
+    name : "Hemant",
+    age : 27,
+    location : "Nashik",
+
+    welcomeMessage : function(){
+        console.log(`${this.name}, welcome to the website`)
+        // console.log(this);
+    }
+
+
+}
+
+// obj.welcomeMessage()
+// obj.name= "ram"
+// obj.welcomeMessage()
+
+
+// console.log(this);
+
+// function chai(){
+//     // let name = "Hemant"
+//     // console.log(this.name)
+//     console.log(this)
+// }
+// chai()
+
+// function chai(){
+//     let name = "Hemant"
+//     console.log(this.name)
+    
+// }
+// chai()
+
+// const chai = function (){
+//         let name = "Hemant"
+//         console.log(this.name)
+        
+//     }
+//     chai()
+
+
+// this used in arrow function
+// const chai =  () => {
+//         let name = "Hemant"
+//         console.log(this.name)
+        
+//     }
+//     chai()
+
+
+// Arrow Function
+
+// const addTwo = (num1, num2) => {
+//     return num1 + num2
+// }
+
+// const addTwo = (num1, num2) => num1 + num2
+
+// const addTwo = (num1, num2) => (num1 + num2)
+
+const addTwo = (num1, num2) => ({name : "hemant"})
+
+console.log(addTwo(1,2));

@@ -1,0 +1,18 @@
+// Immediately Invoked Function Expression (IIFE)
+
+//way 1
+(function chai() {
+    console.log("DB Connected one");
+})();
+
+//way 2
+( () => {
+    console.log("DB Connected two");
+})();
+
+//way 3
+( (name) => {
+    console.log(`DB Connected two ${name}`);
+})("Hemant");
+
+

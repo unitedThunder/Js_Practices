@@ -45,6 +45,20 @@ const user = [
 ]
 //    console.log(user[2].id)
 
-   console.log(Object.keys(tinderUser.user))
-   console.log(Object.values(tinderUser.user))
-   console.log(Object.entries(tinderUser.user))
+//    console.log(Object.keys(tinderUser.user))
+//    console.log(Object.values(tinderUser.user))
+//    console.log(Object.entries(tinderUser.user))
+
+
+   // object destructuring
+   
+   const course = {
+    courseName : "JavaScript",
+    courseFees : 999,
+    courseInstructor : "Hitesh"
+   }
+
+   const {courseInstructor : instructor} = course
+
+//    console.log(courseInstructor)
+   console.log(instructor)

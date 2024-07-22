@@ -1,0 +1,57 @@
+function func1() {
+    console.log("H")
+    console.log("E")
+    console.log("M")
+    console.log("A")
+    console.log("N")
+    console.log("T")
+}
+
+// func1()
+
+// function addNumber(number1, number2) {
+
+//    let sum =  number1 + number2
+//    return sum
+// }
+
+// function addNumber(number1, number2) {
+
+//     console.log(number1+number2)
+//  }
+
+//  addNumber(5,5)
+
+function multiNumber(...num){
+    return num
+}
+ 
+console.log(multiNumber(1,2,3,4,5))
+
+// console.log(addNumber(1,2))
+
+const course = {
+    Name : "javascript",
+    Fees : "free",
+    CourseInstructor : "Hitesh"
+}
+
+function newFunc(AnyObject){
+
+    console.log(AnyObject.Name)
+    console.log(AnyObject.Fees)
+    console.log(AnyObject.CourseInstructor)
+}
+
+// newFunc(course)
+
+const newArr = ["Java", "Kotlin", "Ruby"]
+
+function arrFunction(anyArray){
+    console.log(anyArray[1])
+    console.log(anyArray[0])
+}
+
+// arrFunction(newArr)
+
+
